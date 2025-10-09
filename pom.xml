@@ -65,6 +65,7 @@
 <!--        dont remove-->
 <!--        add new module here-->
         <module>PracticeBasic</module>
+        <module>RouteConfig</module>
 
     </modules>
 </project>
