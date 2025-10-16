@@ -61,10 +61,10 @@
     </build>
 
     <modules>
-        <module>CoreCommon</module>
+        <module>Common</module>
 <!--        dont remove-->
 <!--        add new module here-->
-        <module>PracticeBasic</module>
+        <module>User-Service</module>
         <module>RouteConfig</module>
 
     </modules>
