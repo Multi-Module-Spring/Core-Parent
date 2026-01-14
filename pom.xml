@@ -60,12 +60,22 @@
         </plugins>
     </build>
 
-    <modules>
-        <module>Common</module>
-<!--        dont remove-->
-<!--        add new module here-->
-        <module>User-Service</module>
-        <module>RouteConfig</module>
+    <profiles>
+        <profile>
+            <id>with-user-service</id>
+            <modules>
+                <module>Common</module>
+                <module>User-Service</module>
+            </modules>
+        </profile>
 
-    </modules>
+        <profile>
+            <id>no-user-service</id>
+            <modules>
+                <module>Common</module>
+                <module>Route-Config</module>
+            </modules>
+        </profile>
+    </profiles>
+
 </project>
